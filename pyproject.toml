@@ -1,0 +1,13 @@
+[project]
+name = "myserver"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=4.0.0",
+    "langchain-groq>=1.1.0",
+    "mcp-use>=1.5.0",
+    "mcp[cli]>=1.23.2",
+    "nest-asyncio>=1.6.0",
+]
