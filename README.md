@@ -1,10 +1,6 @@
-## MCP Weather Agent
+## MCP Server Agent
 
-Small MCP-compatible weather toolkit that wraps National Weather Service alerts and forecasts as tools, plus example clients for SSE and chat-driven usage.
-
-### Suggested repository name
-- `mcp-weather-agent`
-
+The MCP Agent is a small, MCP-compatible toolkit that wraps National Weather Service (NWS)(opensource API) alerts and forecasts as tools. It includes example clients for both SSE (Server-Sent Events) and chat-driven usage using ChatGroq. This toolkit demonstrates how to integrate external APIs into an MCP-compatible server and exposes data for interactive use.
 ### Features
 - MCP server exposing `get_alerts` and `get_forecast` against NWS.
 - SSE client demo that lists tools and invokes `get_alerts`.
