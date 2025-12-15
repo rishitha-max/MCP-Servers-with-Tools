@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rick-morty-graphql": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/rishitha.appikonda/Library/CloudStorage/OneDrive-OCTanner/Documents/myserver/graphqlserver/graphql_example.py"
+      ]
+    }
+  }
+}
+
